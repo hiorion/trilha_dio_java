@@ -16,8 +16,6 @@ public class Contador {
         } catch (ParametrosInvalidosException exception) {
             // imprimir a mensagem: O segundo parâmetro deve ser maior que o primeiro
             System.out.println(exception.getMessage());
-            scanner.close();
-            
         }
     }
 
@@ -33,5 +31,5 @@ public class Contador {
         for (int i = 1; i <= contagem; i++) {
             System.out.println("Imprimindo o número " + i);
         }
-        }
+    }
 }
