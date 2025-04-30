@@ -29,8 +29,21 @@ Com base no vídeo de lançamento do iPhone de 2007 (link abaixo), você deve el
 
 ### Exemplo de Diagrama UML (Mermaid)
 
-```mermaid
+# Projeto: iPhone Java UML
 
+Este projeto é uma representação em Java das funcionalidades principais apresentadas no lançamento do iPhone em 2007.
+
+## 📱 Funcionalidades Modeladas
+
+- **Reprodutor Musical**: tocar, pausar, selecionar música.
+- **Aparelho Telefônico**: ligar, atender, iniciar correio de voz.
+- **Navegador na Internet**: exibir página, adicionar nova aba, atualizar página.
+
+---
+
+## 📊 Diagrama UML (Mermaid)
+
+```mermaid
 classDiagram
     interface ReprodutorMusical {
         +tocar()
@@ -65,8 +78,6 @@ classDiagram
     IPhone ..|> ReprodutorMusical
     IPhone ..|> AparelhoTelefonico
     IPhone ..|> NavegadorInternet
-
-```
 
 ### Instruções
 1. Assista ao vídeo do lançamento do iPhone para entender as funcionalidades principais.
