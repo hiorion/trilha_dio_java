@@ -78,6 +78,7 @@ classDiagram
     IPhone ..|> ReprodutorMusical
     IPhone ..|> AparelhoTelefonico
     IPhone ..|> NavegadorInternet
+```
 
 ### Instruções
 1. Assista ao vídeo do lançamento do iPhone para entender as funcionalidades principais.
